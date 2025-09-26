@@ -1,1 +1,3 @@
 # TT-ObjectDetection
+
+This is a repository for Doane et al., 2025. It contains training images, scripts for generating images, and weights of the best-performing YOLOv5 model for automatic identification of tree throw pit-mound couplets in 1-m resolution lidar. The images are already processed and contained in "dataset-train-all-3/images". They are in TIFF format with 3 channels (High-Pass Filter, Slope, MSRM). The python script to generate these images is "generate_images_TD.py" and takes a Geotiff as an input. The best weights from our model are contained in best.pt and can be used with YoloV5.  
